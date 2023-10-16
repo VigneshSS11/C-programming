@@ -1,1 +1,12 @@
-
+//This program is written by Vignesh SS to read 5 integer values using array and print them
+#include<stdio.h>
+int main()
+{
+	int i,j,a[5];
+	printf("Enter five integer values\n");
+	for(i=0;i<5;i++)
+	scanf("%d",&a[i]);
+	for(j=0;j<5;j++)
+	printf("%d",a[j]);
+	return 0;
+}
