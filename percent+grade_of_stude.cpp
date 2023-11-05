@@ -15,7 +15,7 @@ int main()
 	printf("Enter your english marks:");
 	scanf("%d/n",&E);
 	per=(P+C+M+B+E)/5;
-	printf("Your percentage is %f",per);
+	printf("Your percentage is %f\n",per);
 	if(per>=90)
 	printf("Your grade is A");
 	else if(per>=80)
@@ -26,7 +26,7 @@ int main()
 	printf("Your grade is D");
 	else if(per>=40)
 	printf("Your grade is E");
-	else(per<40)
+	else
     printf("Your grade is F");
     return 0;    	
 }
