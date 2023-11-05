@@ -7,9 +7,9 @@ int main()
     scanf("%d", &B);
     H=0.35*B;
     D=.45*B;
-    S=.8*B;
+    S=1.8*B;
     printf("Housing allowance is %d\n",H);
-    printf("Dearness allowance is %d\n",B);
+    printf("Dearness allowance is %d\n",D);
     printf("The Gross salary is %d",S);
     return 0;
 }
